@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio_fluoryynx/static/css/main.f48a98bf.css",
+    "main.js": "/portfolio_fluoryynx/static/js/main.c67bbe0a.js",
+    "index.html": "/portfolio_fluoryynx/index.html",
+    "main.f48a98bf.css.map": "/portfolio_fluoryynx/static/css/main.f48a98bf.css.map",
+    "main.c67bbe0a.js.map": "/portfolio_fluoryynx/static/js/main.c67bbe0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f48a98bf.css",
+    "static/js/main.c67bbe0a.js"
+  ]
+}
