@@ -4,16 +4,16 @@
 	"private": true,
 	"homepage": "https://fluoryynx.github.io/portfolio_fluoryynx",
 	"dependencies": {
-		"gh-pages": "^2.0.1",
+		"gh-pages": "^6.1.1",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3",
-		"react-scripts": "2.1.5",
-		"yarn": "^1.13.0"},
+		"react-scripts": "5.0.1",
+		"yarn": "^1.22.22"},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -b master -d build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"},
 	"eslintConfig": {
