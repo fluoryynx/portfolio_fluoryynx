@@ -42,6 +42,7 @@ Turns out spending your days hunting bugs, breaking things that "definitely work
                     <div class="hero-buttons">
                         <a href="#experience" class="btn btn-primary">View Experience</a>
                         <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="fluoryynx_resume.pdf" download class="btn btn-resume">Download Resume</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -53,6 +54,9 @@ Turns out spending your days hunting bugs, breaking things that "definitely work
         </div>
     </header>
 
+    <!-- Floating Hire Me Button -->
+    <a href="#contact" class="hire-me-button">Hire Me</a>
+    
     <!-- Nyan Cat decoration above Experience section -->
     <img src="nyan_cat.gif" alt="Nyan Cat" class="nyan-cat-experience">
             </div>
@@ -64,58 +68,82 @@ Turns out spending your days hunting bugs, breaking things that "definitely work
             <section class="section" id="experience">
                 <h2 class="section-title"><i class="fas fa-briefcase"></i> Professional Experience <img src="experience_gif.gif" alt="Experience Icon" style="height: 100px; vertical-align: middle; margin-left: 15px;"></h2>
                 
-                <div class="experience-item">
-                    <div class="job-header">
-                        <h3>Ant International | Software Engineer</h3>
-                        <span class="date">December 2024 -- Present</span>
+                <div class="experience-timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h3>Ant International | Software Engineer</h3>
+                                </div>
+                                <div class="timeline-date">December 2024 -- Present</div>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed AI-powered UI automation framework integrating RAG, custom MCP orchestration, and YOLO-OCR for natural language-driven testing across Android/iOS/web — reduced manual testing effort by 80% and accelerating regression cycles by 3x</li>
+                                <li>Designed and implemented REST API sidecar endpoint with middleware client over HTTP, decoupling test execution from message broker dependencies to improve system modularity</li>
+                                <li>Built Python-based AI evaluation pipeline including automated data collection, response assessment algorithms, and prompt optimization system to enhance model performance metrics by 55%</li>
+                                <li>Designed and implemented comprehensive test automation infrastructure using TestNG and Selenium, and developed reusable component libraries following SOLID principles and design patterns</li>
+                                <li>Identified 80% of defects in code review phase through systematic analysis of code changes, design patterns, and API contracts</li>
+                                <li>Guided junior engineers on automated testing approaches, test case design, and defect tracking workflows</li>
+                                <li>Recognized with Technical Savvy Award for exceptional technical contribution, strong project ownership, and commitment to engineering excellence</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul class="job-details">
-                        <li>Developed AI-powered UI automation framework integrating RAG, custom MCP orchestration, and YOLO-OCR for natural language-driven testing across Android/iOS/web — reduced manual testing effort by 80% and accelerating regression cycles by 3x</li>
-                        <li>Designed and implemented REST API sidecar endpoint with middleware client over HTTP, decoupling test execution from message broker dependencies to improve system modularity</li>
-                        <li>Built Python-based AI evaluation pipeline including automated data collection, response assessment algorithms, and prompt optimization system to enhance model performance metrics by 55%</li>
-                        <li>Designed and implemented comprehensive test automation infrastructure using TestNG and Selenium, and developed reusable component libraries following SOLID principles and design patterns</li>
-                        <li>Identified 80% of defects in code review phase through systematic analysis of code changes, design patterns, and API contracts</li>
-                        <li>Guided junior engineers on automated testing approaches, test case design, and defect tracking workflows</li>
-                        <li>Recognized with Technical Savvy Award for exceptional technical contribution, strong project ownership, and commitment to engineering excellence</li>
-                    </ul>
-                </div>
 
-                <div class="experience-item">
-                    <div class="job-header">
-                        <h3>LeapSeed Sdn Bhd | Freelance Software Engineer</h3>
-                        <span class="date">May 2024 -- August 2024</span>
+                    <div class="timeline-item right">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h3>LeapSeed Sdn Bhd | Freelance Software Engineer</h3>
+                                </div>
+                                <div class="timeline-date">May 2024 -- August 2024</div>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed and optimized web applications using PHP Laravel</li>
+                                <li>Built dynamic, responsive UI components using modern JavaScript (ES6+), HTML5, and CSS3</li>
+                                <li>Designed and implemented secure RESTful APIs with comprehensive error handling</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul class="job-details">
-                        <li>Developed and optimized web applications using PHP Laravel</li>
-                        <li>Built dynamic, responsive UI components using modern JavaScript (ES6+), HTML5, and CSS3</li>
-                        <li>Designed and implemented secure RESTful APIs with comprehensive error handling</li>
-                    </ul>
-                </div>
 
-                <div class="experience-item">
-                    <div class="job-header">
-                        <h3>Juris Technologies | Part Time Software Engineer</h3>
-                        <span class="date">February 2024 -- May 2024</span>
+                    <div class="timeline-item left">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h3>Juris Technologies | Part Time Software Engineer</h3>
+                                </div>
+                                <div class="timeline-date">February 2024 -- May 2024</div>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed API integration layer for assignment request system</li>
+                                <li>Engineered complex PL/SQL stored procedures, database triggers, and optimized queries in Oracle Database for business logic implementation</li>
+                                <li>Implemented new features and enhancements to existing enterprise applications</li>
+                                <li>Collaborated with product managers, business analysts, and cross-functional development teams to translate business requirements into technical specifications and deliverable solutions</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul class="job-details">
-                        <li>Developed API integration layer for assignment request system</li>
-                        <li>Engineered complex PL/SQL stored procedures, database triggers, and optimized queries in Oracle Database for business logic implementation</li>
-                        <li>Implemented new features and enhancements to existing enterprise applications</li>
-                        <li>Collaborated with product managers, business analysts, and cross-functional development teams to translate business requirements into technical specifications and deliverable solutions</li>
-                    </ul>
-                </div>
 
-                <div class="experience-item">
-                    <div class="job-header">
-                        <h3>Juris Technologies | Intern Software Engineer</h3>
-                        <span class="date">November 2023 -- February 2024</span>
+                    <div class="timeline-item right">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h3>Juris Technologies | Intern Software Engineer</h3>
+                                </div>
+                                <div class="timeline-date">November 2023 -- February 2024</div>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed end-to-end features using PHP backend with MySQL database integration and JavaScript frontend</li>
+                                <li>Wrote clean, maintainable code following team coding standards and design patterns</li>
+                                <li>Conducted systematic debugging using IDE debugging tools and logging frameworks, performed root cause analysis on software defects</li>
+                                <li>Created technical documentation including UML class diagrams, sequence diagrams, entity-relationship diagrams, and system architecture documentation</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul class="job-details">
-                        <li>Developed end-to-end features using PHP backend with MySQL database integration and JavaScript frontend</li>
-                        <li>Wrote clean, maintainable code following team coding standards and design patterns</li>
-                        <li>Conducted systematic debugging using IDE debugging tools and logging frameworks, performed root cause analysis on software defects</li>
-                        <li>Created technical documentation including UML class diagrams, sequence diagrams, entity-relationship diagrams, and system architecture documentation</li>
-                    </ul>
                 </div>
             </section>
 
@@ -312,4 +340,3 @@ Turns out spending your days hunting bugs, breaking things that "definitely work
     <script src="script.js"></script>
 </body>
 </html>
-
